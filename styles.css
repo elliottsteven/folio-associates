@@ -34,6 +34,11 @@ main {
     text-align: center;
 }
 
+section {
+    margin: 0; 
+    padding: 0; 
+}
+
 footer {
     font-size: 12px;
     background-color: white;
