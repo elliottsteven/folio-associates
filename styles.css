@@ -1,6 +1,6 @@
 body {
     font-family: 'Helvetica', Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -14,7 +14,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     flex: 1;
-    padding-top: 20vh; 
+    padding-top: 18vh; 
 }
 
 .logo {
@@ -40,6 +40,7 @@ footer {
     color: black;
     padding: 10px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 a {
