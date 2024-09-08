@@ -3,16 +3,18 @@ body {
     font-size: 14px;
     margin: 0;
     padding: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 header {
-    background-color: white;
-    color: black;
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Start vertically aligned */
+    flex: 1;
+    padding-top: 33vh; /* Push content down by one third of the viewport height */
 }
 
 .logo {
