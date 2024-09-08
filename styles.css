@@ -14,7 +14,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     flex: 1;
-    padding-top: 33vh; 
+    padding-top: 20vh; 
 }
 
 .logo {
@@ -35,7 +35,7 @@ main {
 }
 
 footer {
-    font-size: 8px;
+    font-size: 12px;
     background-color: white;
     color: black;
     padding: 10px;
