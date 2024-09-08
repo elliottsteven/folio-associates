@@ -45,9 +45,9 @@ section {
 footer {
     font-size: 14px;
     background-color: white;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
-    margin-bottom: 25px;
+    flex-shrink: 0;
 }
 
 a {
