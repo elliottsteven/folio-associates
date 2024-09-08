@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica', Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -15,9 +15,16 @@ header {
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
 }
+
+h1 {
+    font-family: 'Helvetica', Arial, sans-serif; 
+    font-size: 20px;
+    margin: 0;
+}
+
 
 main {
     flex: 1;
