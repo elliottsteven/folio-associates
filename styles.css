@@ -2,7 +2,7 @@ body {
     font-family: 'Helvetica', Arial, sans-serif;
     font-size: 18px;
     font-weight: 300; 
-    color: #696969; 
+    color: #666666; 
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -28,7 +28,6 @@ h1 {
     font-family: 'Helvetica', Arial, sans-serif; 
     font-size: 24px;
     margin: 0;
-    color: #696969; 
     font-weight: 300; 
 }
 
