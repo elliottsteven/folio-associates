@@ -78,3 +78,11 @@ a:hover {
     opacity: 1;
 }
 
+.footer-fade-in {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+
+.footer-fade-in.visible {
+    opacity: 1;
+}
