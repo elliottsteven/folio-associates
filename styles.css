@@ -86,3 +86,7 @@ a:hover {
 .footer-fade-in.visible {
     opacity: 1;
 }
+
+p, .my-paragraph {
+    line-height: 1.15;
+}
