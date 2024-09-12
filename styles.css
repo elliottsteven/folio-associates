@@ -87,6 +87,7 @@ a:hover {
     opacity: 1;
 }
 
-p, .my-paragraph {
+p {
     line-height: 1.15;
 }
+
