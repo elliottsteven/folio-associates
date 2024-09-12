@@ -20,25 +20,7 @@
         <p class="footer-fade-in">&copy; 2024 Folio Associates Limited. All rights reserved. <br>No personally identifiable information is collected by this website. </p>
     </footer>
   
-<script>
-        window.onload = function() {
-            document.getElementById('fadeInImage').classList.add('visible');
-
-            setTimeout(function() {
-                var headerElements = document.querySelectorAll('.delayed-fade-in');
-                headerElements.forEach(function(element) {
-                    element.classList.add('visible');
-                });
-            }, 1000);
-
-            setTimeout(function() {
-                var footerElements = document.querySelectorAll('.footer-fade-in');
-                footerElements.forEach(function(element) {
-                    element.classList.add('visible');
-                });
-            }, 2000);
-        }
-    </script>
+<script src="scripts.js"></script>
 
 </body>
 </html>
