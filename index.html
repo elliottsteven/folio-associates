@@ -6,6 +6,7 @@
     <title>Folio Associates</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+    
 <body>
     <header>
         <img id="fadeInImage" src="Folio-Associates-logo.png" alt="Folio Associates Logo" class="logo fade-in">
@@ -18,12 +19,11 @@
     <footer>
         <p class="footer-fade-in">&copy; 2024 Folio Associates Limited. All rights reserved. <br>No personally identifiable information is collected by this website. </p>
     </footer>
-    
+  
 <script>
         window.onload = function() {
             document.getElementById('fadeInImage').classList.add('visible');
 
-            // Delay for header text
             setTimeout(function() {
                 var headerElements = document.querySelectorAll('.delayed-fade-in');
                 headerElements.forEach(function(element) {
@@ -31,7 +31,6 @@
                 });
             }, 1000);
 
-            // Additional delay for footer text
             setTimeout(function() {
                 var footerElements = document.querySelectorAll('.footer-fade-in');
                 footerElements.forEach(function(element) {
@@ -41,6 +40,5 @@
         }
     </script>
 
-    
 </body>
 </html>
