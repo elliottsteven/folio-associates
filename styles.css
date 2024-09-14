@@ -27,7 +27,7 @@ header {
 
 body.dark-mode {
     color: white;
-    background-color: #000033;
+    background: #000033;
 }
 
 header.dark-mode .logo {
