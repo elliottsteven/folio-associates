@@ -15,3 +15,12 @@ window.onload = function() {
         });
     }, 2000);
 }
+document.addEventListener('DOMContentLoaded', function() {
+    const logo = document.getElementById('fadeInImage');
+
+    logo.addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+        document.querySelector('header').classList.toggle('dark-mode');
+        document.querySelector('footer').classList.toggle('dark-mode');
+    });
+});
