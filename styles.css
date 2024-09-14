@@ -2,7 +2,7 @@ body {
     font-family: 'Helvetica', Arial, sans-serif;
     font-size: 18px;
     font-weight: 300; 
-    color: #000033; 
+    color: #121E2C; 
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -27,7 +27,7 @@ header {
 
 body.dark-mode {
     color: white;
-    background: #000033;
+    background: #121E2C;
 }
 
 header.dark-mode .logo {
@@ -35,17 +35,17 @@ header.dark-mode .logo {
 }
 
 footer.dark-mode {
-    background-color: #000033;
+    background-color: #121E2C;
 }
 
 .dark-mode .st0 {
-    fill: white;
+    fill: #fafafa;
 }
 
 .dark-mode h1,
 .dark-mode p,
 .dark-mode a {
-    color: white;
+    color: #fafafa;
 }
 
 h1 {
