@@ -25,6 +25,29 @@ header {
     height: auto;
 }
 
+body.dark-mode {
+    color: white;
+    background-color: #000033;
+}
+
+header.dark-mode .logo {
+    fill: white;
+}
+
+footer.dark-mode {
+    background-color: #000033;
+}
+
+.dark-mode .st0 {
+    fill: white;
+}
+
+.dark-mode h1,
+.dark-mode p,
+.dark-mode a {
+    color: white;
+}
+
 h1 {
     font-family: 'Helvetica', Arial, sans-serif; 
     font-size: 30px;
