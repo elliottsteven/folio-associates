@@ -46,6 +46,7 @@ footer.dark-mode {
 .dark-mode p,
 .dark-mode a {
     color: #fafafa;
+    font-weight: 200;
 }
 
 h1 {
