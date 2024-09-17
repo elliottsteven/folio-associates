@@ -124,6 +124,7 @@ p {
     #fadeInImage {
         content: url('Folio-Associates-logo-white.png');
     }
+}
 
 body.dark-mode #fadeInImage {
     content: url('Folio-Associates-logo-white.png');
