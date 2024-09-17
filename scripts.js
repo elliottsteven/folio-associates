@@ -15,6 +15,7 @@ window.onload = function() {
         });
     }, 2000);
 }
+
 document.addEventListener('DOMContentLoaded', function() {
     const logo = document.getElementById('fadeInImage');
 
