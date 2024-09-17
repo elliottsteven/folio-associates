@@ -116,3 +116,15 @@ p {
     line-height: 1.2;
 }
 
+#fadeInImage {
+    content: url('Folio-Associates-logo.svg');
+}
+
+@media (prefers-color-scheme: dark) {
+    #fadeInImage {
+        content: url('Folio-Associates-logo-white.png');
+    }
+
+body.dark-mode #fadeInImage {
+    content: url('Folio-Associates-logo-white.png');
+}
