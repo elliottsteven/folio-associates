@@ -119,6 +119,19 @@ p {
     content: url('Folio-Associates-logo.svg');
 }
 
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+#fadeInImage:hover {
+    animation: blink 0.5s linear 2; 
+}
+
 @media (prefers-color-scheme: dark) {
     #fadeInImage {
         content: url('Folio-Associates-logo-white.png');
