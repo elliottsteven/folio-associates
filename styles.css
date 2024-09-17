@@ -129,7 +129,7 @@ p {
 }
 
 #fadeInImage:hover {
-    animation: blink 0.2s linear 2; 
+    animation: blink 0.1s linear 2;
 }
 
 @media (prefers-color-scheme: dark) {
