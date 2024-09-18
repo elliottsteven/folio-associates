@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #fdfdfd, #fafafa); 
+    align-text: center;
 }
 
 header {
