@@ -97,11 +97,11 @@ a::after {
 }
 
 body.dark-mode a::after {
-    background-color: #1E2A3C;
+    background-color: #3a4f63;
 }
 
 a:hover::after {
-    background-color: #1E2A3C; /* Dark blue on hover for increased visibility */
+    background-color: #3a4f63;
 }
 
 .fade-in {
