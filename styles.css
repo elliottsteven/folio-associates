@@ -155,19 +155,3 @@ body.dark-mode #fadeInImage {
     font-weight: 300;
     text-decoration: none;
 }
-
-.top-right-link:hover {
-    text-decoration: underline;
-}
-
-body.dark-mode .top-right-link {
-    color: #1E2A3C;
-}
-
-.back-link {
-    color: #d8d8d8;
-}
-
-body.dark-mode .back-link {
-    color: #1E2A3C;
-}
