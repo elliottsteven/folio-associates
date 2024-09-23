@@ -137,7 +137,7 @@ p {
 }
 
 #fadeInImage {
-    content: url('Folio-Associates-logo.svg');
+    content: url('Folio-Associates-logo.png');
 }
 
 @keyframes blink {
