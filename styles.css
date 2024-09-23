@@ -137,7 +137,7 @@ p {
 }
 
 #fadeInImage {
-    content: url('Folio-Associates-logo.png');
+    content: url('Folio-Associates-logo.svg');
 }
 
 @keyframes blink {
@@ -151,12 +151,6 @@ p {
 
 #fadeInImage:hover {
     animation: blink 0.1s linear 1;
-}
-
-@media (prefers-color-scheme: dark) {
-    #fadeInImage {
-        content: url('Folio-Associates-logo-white.png');
-    }
 }
 
 body.dark-mode #fadeInImage {
