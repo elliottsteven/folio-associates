@@ -150,7 +150,7 @@ p {
 }
 
 #fadeInImage:hover {
-    animation: blink 0.1s linear 1;
+    animation: blink 0.1s linear 2;
 }
 
 body.dark-mode #fadeInImage {
