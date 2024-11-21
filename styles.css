@@ -106,7 +106,7 @@ a:hover::after {
 
 .fade-in {
     opacity: 0;
-    transition: opacity 2s ease-in;
+    transition: opacity 1s ease-in;
 }
 
 .fade-in.visible {
@@ -115,7 +115,7 @@ a:hover::after {
 
 .delayed-fade-in {
     opacity: 0;
-    transition: opacity 2s ease-in;
+    transition: opacity 1s ease-in;
 }
 
 .delayed-fade-in.visible {
@@ -124,7 +124,7 @@ a:hover::after {
 
 .footer-fade-in {
     opacity: 0;
-    transition: opacity 2s ease-in;
+    transition: opacity 1s ease-in;
 }
 
 .footer-fade-in.visible {
