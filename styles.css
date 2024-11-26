@@ -14,12 +14,15 @@ body {
 }
 
 .topnav {
-    margin-top: 20px; /* Adjust the value as needed */
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
+.topnav a.active {
+    color: #121E2C;
+}
 
 header {
     display: flex;
