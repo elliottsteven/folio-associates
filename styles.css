@@ -83,7 +83,9 @@ header {
     margin: 0.6rem 0 0 0;  /* Space between the date and the paragraph */
 }
 
-
+.container {
+    margin: 0 10px;
+}
 
 h1 {
     font-family: 'Helvetica', Arial, sans-serif; 
