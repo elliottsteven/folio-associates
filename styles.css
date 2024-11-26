@@ -67,12 +67,11 @@ header {
 }
 
 .now-item {
-    margin-bottom: 2rem; /* Space between posts */
+    margin-bottom: 1.8rem;
     padding: 1rem;
 }
 
 .now-date {
-    font-family: 'Helvetica', Arial, sans-serif; 
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
