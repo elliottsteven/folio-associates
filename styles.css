@@ -20,8 +20,31 @@ body {
     gap: 15px;
 }
 
-.topnav a.active {
-    color: #121E2C;
+.topnav a {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+}
+
+.topnav a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #d8d8d8;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: background-color 0.3s ease;
+}
+
+.topnav a.active::after {
+    background-color: #121E2C;
+}
+
+/* Ensure other hover or focus effects remain intact */
+.topnav a:hover::after {
+    background-color: #3a4f63;
 }
 
 header {
