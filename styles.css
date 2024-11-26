@@ -61,29 +61,30 @@ header {
     height: auto;
 }
 
-body.dark-mode {
-    color: white;
-    background: #121E2C;
+.now-page-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-left: 1px solid #e0e0e0; /* Pale grey vertical line */
 }
 
-header.dark-mode .logo {
-    fill: white;
+.now-item {
+    margin-bottom: 2rem; /* Space between posts */
+    padding: 1rem;
 }
 
-footer.dark-mode {
-    background-color: #121E2C;
+.now-date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+    margin: 0;
 }
 
-.dark-mode .st0 {
-    fill: #fafafa;
+.now-update {
+    margin: 0.5rem 0 0 0;  /* Space between the date and the paragraph */
 }
 
-.dark-mode h1,
-.dark-mode p,
-.dark-mode a {
-    color: #fafafa;
-    font-weight: 300;
-}
+
 
 h1 {
     font-family: 'Helvetica', Arial, sans-serif; 
@@ -130,64 +131,13 @@ a::after {
     transition: background-color 0.3s ease;
 }
 
-body.dark-mode a::after {
-    background-color: #3a4f63;
-}
 
 a:hover::after {
     background-color: #3a4f63;
 }
 
-.fade-in {
-    opacity: 0;
-    transition: opacity 1s ease-in;
-}
-
-.fade-in.visible {
-    opacity: 1;
-}
-
-.delayed-fade-in {
-    opacity: 0;
-    transition: opacity 1s ease-in;
-}
-
-.delayed-fade-in.visible {
-    opacity: 1;
-}
-
-.footer-fade-in {
-    opacity: 0;
-    transition: opacity 1s ease-in;
-}
-
-.footer-fade-in.visible {
-    opacity: 1;
-}
-
 p {
     line-height: 1.3;
     text-align: center;
-}
-
-#fadeInImage {
-    content: url('Folio-Associates-logo.svg');
-}
-
-@keyframes blink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
-
-#fadeInImage:hover {
-    animation: blink 0.1s linear 2;
-}
-
-body.dark-mode #fadeInImage {
-    content: url('Folio-Associates-logo-white.png');
 }
 
