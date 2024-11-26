@@ -65,11 +65,13 @@ header {
     max-width: 400px;
     margin: 2rem auto;
     padding: 1rem;
+    text-align: left;
 }
 
 .now-item {
     margin-bottom: 1.6rem;
     padding: 1rem;
+    text-align: left;
 }
 
 .now-date {
@@ -79,6 +81,7 @@ header {
     letter-spacing: 2px;
     color: #808080;
     margin: 0;
+    text-align: left;
 }
 
 .now-update {
