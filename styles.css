@@ -66,13 +66,13 @@ header {
 }
 
 .now-item {
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.6rem;
     padding: 1rem;
 }
 
 .now-date {
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #808080;
