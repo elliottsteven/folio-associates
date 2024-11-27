@@ -5,7 +5,7 @@ body {
     color: #121E2C; 
     margin: 0;
     padding: 0;
-    /* Removed align-items: center and align-text to eliminate potential conflicts */
+    height: 100%;
 }
 
 .topnav {
