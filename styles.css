@@ -14,7 +14,7 @@ body {
     z-index: 1000; /* Ensures it stays above other content */
     background-color: white; /* Background color for visibility */
     padding: 15px 0; /* Adds vertical padding */
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Adds a subtle shadow effect */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.07); /* Adds a subtle shadow effect */
     display: flex;
     justify-content: center;
     gap: 15px;
